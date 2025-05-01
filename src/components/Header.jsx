@@ -5,7 +5,7 @@ import React from 'react';
     const [textSearch, setTextSearch] = React.useState('');
     return <div className="p-4 bg-black text-white flex items-center justify-between">
         <div className="flex items-center space-x-4">
-            <h1 className="text-[40px] text-red-700 font-bold mr-5 ">MOVIE</h1>
+            <a className="text-[40px] text-red-700 font-bold mr-5 cursor-pointer">MOVIE</a>
             <nav className="flex items-center space-x-4  ">
                 <a href="" >Home</a>
                 <a href="">About</a>
